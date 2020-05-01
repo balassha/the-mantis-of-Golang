@@ -1,6 +1,5 @@
 Unsafe - done
-dwarf
-pe
+pe - done
 hash
 pprof
 iotest
