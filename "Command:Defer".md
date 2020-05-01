@@ -1,4 +1,4 @@
-# Defer Statement
+# Command - Defer
 Deferred function is declared inside another function and is called when surrounding function exits — either normally or if goroutine panics.
 This mechanism is used e.g. to do cleanup and close open files or sockets.
 Deferred functions are evaluated in LIFO fashion .
