@@ -118,3 +118,5 @@ As you can see, the function iterates through the slice element by element. The 
 15
 ```
 With the Reduce function, the type assertion is not necessary. If you have a look at the function signature, you'll notice that it will always return a float.
+## Disclaimer:
+This was only an overview of the functions you can find in the Go-Funk package. Even though those are quite practical, I’d recommend to use them only for prototyping: the fact that they can’t handle typing properly (especially custom types) can make your code unsafe in a production environment.
